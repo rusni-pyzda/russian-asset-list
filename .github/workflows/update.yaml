@@ -1,0 +1,38 @@
+name: "Update data"
+
+on:
+  schedule:
+    - cron: "35 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      pages: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Checkout main branch into a subdir
+        uses: actions/checkout@v3
+        with:
+          ref: main
+          path: main
+      - name: Setup Go compiler
+        uses: actions/setup-go@v3
+        with:
+          go-version: '>=1.17.0'
+      - name: Update Twitter list
+        run: |
+          go run main.go --file=twitter.json > new_twitter.json
+          mv new_twitter.json twitter.json
+      - name: Commit updates, if any
+        run: |
+          git config user.name automation
+          git config user.email github-actions@github.com
+          git add *.json
+          if ! git diff-index --quiet HEAD; then
+            git commit -m 'Update generated files'
+            git push
+          fi

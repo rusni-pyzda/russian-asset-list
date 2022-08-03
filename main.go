@@ -3,12 +3,18 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"flag"
 	"fmt"
 	"html/template"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"strings"
+)
+
+var (
+	jsonFile = flag.String("file", "", "Path to the file with existing data.")
 )
 
 func mkPayload(limit int) map[string]interface{} {
@@ -124,7 +130,7 @@ func renameField(f string) string {
 	return f
 }
 
-func useableDataFromResponse(resp QueryCollectionResponse) []interface{} {
+func useableDataFromResponse(resp QueryCollectionResponse) []map[string]string {
 	collectionId := map[string]bool{}
 	fieldName := map[string]string{}
 	for k, c := range resp.RecordMap.Collection {
@@ -133,7 +139,7 @@ func useableDataFromResponse(resp QueryCollectionResponse) []interface{} {
 			fieldName[k] = renameField(f.Name)
 		}
 	}
-	r := []interface{}{}
+	r := []map[string]string{}
 	for _, b := range resp.RecordMap.Block {
 		v := b.Value
 		if v.Type != "page" || !collectionId[v.ParentID] {
@@ -143,7 +149,7 @@ func useableDataFromResponse(resp QueryCollectionResponse) []interface{} {
 		for k, p := range v.Properties {
 			entry[fieldName[k]] = notionCrapToString(p)
 		}
-		if t, ok := entry["Twitter"]; ok && t[0] == '@' {
+		if strings.HasPrefix(entry["Twitter"], "@") {
 			r = append(r, entry)
 		}
 	}
@@ -202,6 +208,52 @@ func ensureString(v interface{}) string {
 	}
 }
 
+type List struct {
+	// Wrapped in an object to allow adding more top-level metadata in the future
+	// without breaking users.
+
+	Entries []map[string]string `json:"entries"`
+}
+
+func mergeEntries(into map[string]string, from map[string]string) {
+	for k, v := range from {
+		if k == "id" {
+			continue
+		}
+		into[k] = v
+	}
+}
+
+func (l *List) Update(data []map[string]string) error {
+	existingByUsername := map[string]map[string]string{}
+	dupeIdxs := []int{}
+	for i, e := range l.Entries {
+		username := e["Twitter"]
+		_, duplicate := existingByUsername[username]
+		if duplicate {
+			dupeIdxs = append(dupeIdxs, i)
+		} else {
+			existingByUsername[username] = e
+		}
+	}
+	// TODO: handle dupes
+
+	newEntries := []map[string]string{}
+	for _, e := range data {
+		existing, exists := existingByUsername[e["Twitter"]]
+		if exists {
+			mergeEntries(existing, e)
+		} else {
+			newEntries = append(newEntries, e)
+		}
+	}
+	l.Entries = append(l.Entries, newEntries...)
+
+	// TODO: lookup missing accout IDs
+
+	return nil
+}
+
 func main() {
 	resp, err := queryColletion(0)
 	if err != nil {
@@ -212,6 +264,30 @@ func main() {
 		log.Fatalf("request failed: %s", err)
 	}
 
-	s, _ := json.Marshal(useableDataFromResponse(resp))
-	fmt.Println(string(s))
+	_, err = os.Stat(*jsonFile)
+	if err != nil && !os.IsNotExist(err) {
+		log.Fatalf("Failed to stat %q: %s", *jsonFile, err)
+	}
+	exists := err == nil
+	data := &List{}
+	if exists {
+		f, err := os.Open(*jsonFile)
+		if err != nil {
+			log.Fatalf("Failed to open %q: %s", *jsonFile, err)
+		}
+		if err := json.NewDecoder(f).Decode(data); err != nil {
+			log.Fatalf("Failed to unmarshal the content of %q: %s", *jsonFile, err)
+		}
+	}
+
+	newData := useableDataFromResponse(resp)
+
+	if err := data.Update(newData); err != nil {
+		log.Fatalf("Failed to merge in new data: %s", err)
+	}
+	encoder := json.NewEncoder(os.Stdout)
+	encoder.SetIndent("", "  ")
+	if err := encoder.Encode(data); err != nil {
+		log.Fatalf("Failed to marshal data: %s", err)
+	}
 }
