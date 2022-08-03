@@ -248,9 +248,66 @@ func (l *List) Update(data []map[string]string) error {
 		}
 	}
 	l.Entries = append(l.Entries, newEntries...)
+	return nil
+}
 
-	// TODO: lookup missing accout IDs
+func getIDForUsername(username string, token string) (string, bool, error) {
+	url := fmt.Sprintf("https://api.twitter.com/2/users/by/username/%s", username)
+	req, _ := http.NewRequest("GET", url, nil)
 
+	req.Header.Add("Accept", "application/json")
+	req.Header.Add("Content-Type", "application/json")
+	req.Header.Add("Authorization", fmt.Sprintf("Bearer %s", token))
+
+	resp, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return "", false, fmt.Errorf("sending the request: %w", err)
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode == http.StatusTooManyRequests {
+		return "", true, fmt.Errorf("throttled")
+	}
+
+	if resp.StatusCode != http.StatusOK {
+		body, err := ioutil.ReadAll(resp.Body)
+		if err != nil {
+			return "", false, fmt.Errorf("reading body from an error response (code %d): %w", resp.StatusCode, err)
+		}
+		return "", false, fmt.Errorf("request failed with code %d: %s", resp.StatusCode, body)
+	}
+
+	v := struct {
+		Data struct {
+			ID string `json:"id"`
+		} `json:"data"`
+	}{}
+	if err := json.NewDecoder(resp.Body).Decode(&v); err != nil {
+		return "", false, fmt.Errorf("decoding response: %w", err)
+	}
+	return v.Data.ID, false, nil
+}
+
+func (l *List) AddMissingIDs() error {
+	token := os.Getenv("TWITTER_BEARER_TOKEN")
+	if token == "" {
+		return fmt.Errorf("missing twitter bearer token")
+	}
+	for _, e := range l.Entries {
+		if e["id"] != "" {
+			// Never update an already fetched ID
+			continue
+		}
+		id, throttled, err := getIDForUsername(strings.TrimPrefix(e["Twitter"], "@"), token)
+		if throttled {
+			return nil
+		}
+		if err != nil {
+			log.Printf("Fetching ID for user %q failed: %s", e["Twitter"], err)
+			continue
+		}
+		e["id"] = id
+	}
 	return nil
 }
 
@@ -285,6 +342,11 @@ func main() {
 	if err := data.Update(newData); err != nil {
 		log.Fatalf("Failed to merge in new data: %s", err)
 	}
+
+	if err := data.AddMissingIDs(); err != nil {
+		log.Printf("Fetching missing IDs failed: %s", err)
+	}
+
 	encoder := json.NewEncoder(os.Stdout)
 	encoder.SetIndent("", "  ")
 	if err := encoder.Encode(data); err != nil {
