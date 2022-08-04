@@ -351,6 +351,7 @@ func main() {
 
 	encoder := json.NewEncoder(os.Stdout)
 	encoder.SetIndent("", "  ")
+	encoder.SetEscapeHTML(false)
 	if err := encoder.Encode(data); err != nil {
 		log.Fatalf("Failed to marshal data: %s", err)
 	}
