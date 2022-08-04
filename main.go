@@ -312,6 +312,8 @@ func (l *List) AddMissingIDs() error {
 }
 
 func main() {
+	flag.Parse()
+
 	resp, err := queryColletion(0)
 	if err != nil {
 		log.Fatalf("preflight request failed: %s", err)
