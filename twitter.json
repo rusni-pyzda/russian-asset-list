@@ -407,7 +407,7 @@
     },
     {
       "Category": "Collaborator",
-      "Country": "United States/Germany",
+      "Country": "United States,Germany",
       "Link": "<a href=\"https://twitter.com/HarleySchlanger\">https://twitter.com/HarleySchlanger</a>",
       "Name": "Harley Schlanger",
       "Summary": "Pro-russian <a href=\"https://cpd.gov.ua/reports/%D1%81%D0%BF%D1%96%D0%BA%D0%B5%D1%80%D0%B8-%D1%8F%D0%BA%D1%96-%D0%BF%D1%80%D0%BE%D1%81%D1%83%D0%B2%D0%B0%D1%8E%D1%82%D1%8C-%D1%81%D0%BF%D1%96%D0%B2%D0%B7%D0%B2%D1%83%D1%87%D0%BD%D1%96-%D1%80%D0%BE/\">rhetoric</a>",
@@ -436,14 +436,14 @@
       "Category": "Collaborator",
       "Country": "United States",
       "Link": "<a href=\"https://twitter.com/raymcgovern\">https://twitter.com/raymcgovern</a>",
-      "Name": "Ray McGovern",
-      "Summary": "Pro-russian <a href=\"https://cpd.gov.ua/reports/%D1%81%D0%BF%D1%96%D0%BA%D0%B5%D1%80%D0%B8-%D1%8F%D0%BA%D1%96-%D0%BF%D1%80%D0%BE%D1%81%D1%83%D0%B2%D0%B0%D1%8E%D1%82%D1%8C-%D1%81%D0%BF%D1%96%D0%B2%D0%B7%D0%B2%D1%83%D1%87%D0%BD%D1%96-%D1%80%D0%BE/\">rhetoric</a>",
+      "Name": "[\"Ray McGovern\",[[\"b\"]]]",
+      "Summary": "Anti-American <a href=\"https://raymcgovern.com/2022/07/14/the-imaginary-war-in-ukraine/\">pro-russian</a> <a href=\"https://scotthorton.org/interviews/2-10-22-ray-mcgovern-on-the-russia-invasion-panic/\">stance</a>",
       "Twitter": "@raymcgovern",
       "id": "2216210047"
     },
     {
       "Category": "Collaborator",
-      "Country": "Syria/UK/Austria",
+      "Country": "Syria,United Kingdom,Austria",
       "Link": "<a href=\"https://twitter.com/richimedhurst\">https://twitter.com/richimedhurst</a>",
       "Name": "Richard Medhurst",
       "Summary": "<a href=\"https://twitter.com/richimedhurst/status/1537208196925902849?s=20&amp;t=UjVR-3xlqA3nnyksuNVbZw\">Outright</a> <a href=\"https://twitter.com/richimedhurst/status/1539301874188398594?s=20&amp;t=UjVR-3xlqA3nnyksuNVbZw\">pro-Kremlin</a> <a href=\"https://twitter.com/richimedhurst/status/1539278850307276802?s=20&amp;t=UjVR-3xlqA3nnyksuNVbZw\">position</a>",
@@ -803,7 +803,7 @@
     },
     {
       "Category": "Collaborator",
-      "Country": "United States/Ukraine",
+      "Country": "United States,Ukraine",
       "Link": "<a href=\"https://twitter.com/officejjsmart\">https://twitter.com/officejjsmart</a>",
       "Name": "Jason Jay Smart",
       "Summary": "Repeats Kremlin <a href=\"https://twitter.com/officejjsmart/status/1545104995229597702?s=20&amp;t=AXn0g4BbXdOIHFPY22qFzg\">propaganda</a> <a href=\"https://twitter.com/officejjsmart/status/1544041254752772098?s=20&amp;t=AXn0g4BbXdOIHFPY22qFzg\">messages</a>. Makes pro-russian <a href=\"https://twitter.com/officejjsmart/status/1552332599443558413?s=20&amp;t=S3LUWTUUkvdZAyO6AEcbig\">“predictions”</a>",
@@ -847,7 +847,7 @@
       "id": "1268295704713314305"
     },
     {
-      "Category": "Useful idiots",
+      "Category": "Useful idiot",
       "Country": "Netherlands",
       "Link": "<a href=\"https://twitter.com/bellingcat?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ\">https://twitter.com/bellingcat?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ</a>",
       "Name": "Bellingcat",
@@ -1172,7 +1172,7 @@
     },
     {
       "Category": "Kremlin parrot",
-      "Country": "Sweden/Denmark",
+      "Country": "Sweden",
       "Link": "<a href=\"https://twitter.com/UlfSk48\">https://twitter.com/UlfSk48</a>",
       "Name": "[\"Ulf Sandmark\",[[\"b\"]]]",
       "Summary": "Repeats Kremlin <a href=\"https://cpd.gov.ua/reports/%D1%81%D0%BF%D1%96%D0%BA%D0%B5%D1%80%D0%B8-%D1%8F%D0%BA%D1%96-%D0%BF%D1%80%D0%BE%D1%81%D1%83%D0%B2%D0%B0%D1%8E%D1%82%D1%8C-%D1%81%D0%BF%D1%96%D0%B2%D0%B7%D0%B2%D1%83%D1%87%D0%BD%D1%96-%D1%80%D0%BE/\">narratives</a>",
@@ -1280,7 +1280,7 @@
     },
     {
       "Category": "Collaborator",
-      "Country": "Chile/Ukraine",
+      "Country": "Chile,Ukraine",
       "Link": "<a href=\"https://twitter.com/GonzaloLira1968\">https://twitter.com/GonzaloLira1968</a>",
       "Name": "Gonzalo Lira",
       "Summary": "Chilean living in Ukraine but anti-Ukraine",
@@ -1298,7 +1298,7 @@
     },
     {
       "Category": "Kremlin parrot",
-      "Country": "United States/Georgia",
+      "Country": "United States,Georgia",
       "Link": "<a href=\"https://twitter.com/michael_wasiura\">https://twitter.com/michael_wasiura</a>",
       "Name": "[\"Michael Wasiura\",[[\"b\"]]]",
       "Summary": "<a href=\"https://www.newsweek.com/us-vet-fighting-ukrainian-forces-its-1916-type-artillery-war-1722367\">“russia is too strong”</a> rhetoric",
@@ -1442,7 +1442,7 @@
     },
     {
       "Category": "Asset",
-      "Country": "russia/United Kingdom",
+      "Country": "russia,United Kingdom",
       "Link": "<a href=\"https://twitter.com/PKurzin\">https://twitter.com/PKurzin</a>",
       "Name": "[\"Pyotr Kurzin\",[[\"b\"]]]",
       "Summary": "Frequents twitters spaces, spreads “russia’s economic influence” narrative, wants a DMZ in Ukraine",
@@ -1529,6 +1529,105 @@
       "Summary": "Outright pro-russian stance, French journalist based in Moscow",
       "Twitter": "@Paugog",
       "id": "195410381"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/ConceptualJames\">https://twitter.com/ConceptualJames</a>",
+      "Name": "[\"James Lindsay, America's top Christian nationalist\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/ConceptualJames/status/1537765112282488833\">Pro-russian</a> <a href=\"https://twitter.com/ConceptualJames/status/1504120764001304576\">anti-Ukrainian</a> <a href=\"https://twitter.com/ConceptualJames/status/1540486895439716352\">rhetoric</a>",
+      "Twitter": "@ConceptualJames",
+      "id": "826261914"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/barnes_law\">https://twitter.com/barnes_law</a>",
+      "Name": "[\"Robert Barnes\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/barnes_law/status/1546591359837958145\">Straight-up</a> <a href=\"https://twitter.com/barnes_law/status/1510700388038549506\">pro-russian</a> <a href=\"https://twitter.com/barnes_law/status/1515483229112844289\">rhetoric</a>",
+      "Twitter": "@barnes_law",
+      "id": "2301990517"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United Kingdom",
+      "Link": "<a href=\"https://twitter.com/davidkurten\">https://twitter.com/davidkurten</a>",
+      "Name": "[\"David Kurten\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/davidkurten/status/1554808866382151681\">“Nazis in Ukraine” and stop aid rhetoric</a>",
+      "Twitter": "@davidkurten",
+      "id": "1017280993"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/jimmy_dore\">https://twitter.com/jimmy_dore</a>",
+      "Name": "[\"Jimmy Dore\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/jimmy_dore/status/1552416533841715200\">Straight-up</a> <a href=\"https://twitter.com/jimmy_dore/status/1551690566328389632\">pro-russian</a> <a href=\"https://twitter.com/jimmy_dore/status/1542899350530953219\">rhetoric</a>",
+      "Twitter": "@jimmy_dore",
+      "id": "98992586"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United Kingdom",
+      "Link": "<a href=\"https://twitter.com/AgnesCallamard\">https://twitter.com/AgnesCallamard</a>",
+      "Name": "[\"Agnes Callamard\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/AgnesCallamard/status/1555234095982149632\">Pro-russian</a> <a href=\"https://twitter.com/AgnesCallamard/status/1555154327815192577\">rhetoric</a>",
+      "Twitter": "@AgnesCallamard",
+      "id": "342181234"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/HillTVLive\">https://twitter.com/HillTVLive</a>",
+      "Name": "[\"Rising\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/HillTVLive/status/1554503675862712322\">Pro-russian</a> <a href=\"https://www.youtube.com/watch?v=98cXig0hOVw&amp;ab_channel=TheHill\">rhetoric</a>",
+      "Twitter": "@HillTVLive",
+      "id": "995478067597496322"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United Kingdom",
+      "Link": "<a href=\"https://twitter.com/jeremycorbyn\">https://twitter.com/jeremycorbyn</a>",
+      "Name": "Jeremy Corbyn",
+      "Summary": "<a href=\"https://twitter.com/MayadeenEnglish/status/1554132326610878465?s=20&amp;t=vl9MYYSWUMRabWmM08oXhw\">Anti-aid rhetoric</a>",
+      "Twitter": "@jeremycorbyn",
+      "id": "117777690"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/thevivafrei\">https://twitter.com/thevivafrei</a>",
+      "Name": "[\"Viva Frei\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://www.youtube.com/watch?v=sSkXojCqSQc&amp;ab_channel=VivaFrei\">Straight-up</a> <a href=\"https://www.youtube.com/watch?v=ypRT-t7eNPk&amp;ab_channel=VivaFrei\">pro-russian</a> rhetoric",
+      "Twitter": "@thevivafrei",
+      "id": "96906231"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/emeriticus\">https://twitter.com/emeriticus</a>",
+      "Name": "[\"Pedro L. Gonzalez\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/emeriticus\">Straight-up</a> <a href=\"https://twitter.com/emeriticus/status/1554323882290593797\">pro-russian</a> <a href=\"https://twitter.com/emeriticus/status/1552144645005533188\">rhetoric</a>",
+      "Twitter": "@emeriticus",
+      "id": "859409582426251269"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Country": "United Kingdom",
+      "Link": "<a href=\"https://twitter.com/LievenAnatol\">https://twitter.com/LievenAnatol</a>",
+      "Name": "[\"Anatol Lieven\",[[\"b\"]]]",
+      "Summary": "Compromise <a href=\"https://www.dissentmagazine.org/article/the-ethics-of-realism\">rhetoric</a>",
+      "Twitter": "@LievenAnatol",
+      "id": "1349354662210764801"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Country": "United Kingdom",
+      "Link": "<a href=\"https://twitter.com/lieven_anatol\">https://twitter.com/lieven_anatol</a>",
+      "Name": "[\"Anatol Lieven\",[[\"b\"]]]",
+      "Summary": "Compromise <a href=\"https://www.dissentmagazine.org/article/the-ethics-of-realism\">rhetoric</a>",
+      "Twitter": "@lieven_anatol",
+      "id": "1459619892030853127"
     }
   ]
 }
