@@ -362,7 +362,7 @@
     },
     {
       "Category": "Collaborator",
-      "Country": "Canada",
+      "Country": "Finland",
       "Link": "<a href=\"https://twitter.com/EvaKBartlett\">https://twitter.com/EvaKBartlett</a>",
       "Name": "[\"Eva Karene Bartlett\",[[\"b\"]]]",
       "Summary": "False <a href=\"https://www.channel4.com/news/factcheck/factcheck-eva-bartletts-claims-about-syrian-children\">pro-russian narrative</a>",
@@ -1637,6 +1637,42 @@
       "Summary": "<a href=\"https://www.nme.com/news/music/pussy-riot-members-found-after-disappearing-crimea-2249517\">Outright</a> <a href=\"https://twitter.com/cryptodrftng/status/1547575376787845126?s=20&amp;t=GtUBnqM9h0xt3qhSjEoZ4w\">pro-russian</a> stance",
       "Twitter": "@pussyrrriot",
       "id": "2479224200"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Country": "European Union",
+      "Link": "<a href=\"https://twitter.com/euronews\">https://twitter.com/euronews</a>",
+      "Name": "Euronews",
+      "Summary": "Repeats the <a href=\"https://www.stopfake.org/en/how-moscow-is-spreading-its-propaganda-using-eu-funded-media/\">Kremlin narrative</a>",
+      "Twitter": "@euronews",
+      "id": "25067168"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Country": "Belgium",
+      "Link": "<a href=\"https://twitter.com/brezaleksandar\">https://twitter.com/brezaleksandar</a>",
+      "Name": "[\"Aleksandar Brezar\",[[\"b\"]]]",
+      "Summary": "Does not appreciate <a href=\"https://twitter.com/cryptodrftng/status/1561046752869900288?s=20&amp;t=qKu0nvlcQd3Jya0zkU-0og\">social activism</a>",
+      "Twitter": "@brezaleksandar",
+      "id": "237245772"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/ksorbs\">https://twitter.com/ksorbs</a>",
+      "Name": "[\"Kevin Sorbo\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/ksorbs/status/1561086437570723842?s=20&amp;t=kzporr8x1wBz-btGDo0jYA\">Anti-aid rhetoric</a>",
+      "Twitter": "@ksorbs",
+      "id": "33608041"
+    },
+    {
+      "Category": "Asset",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/lexfridman\">https://twitter.com/lexfridman</a>",
+      "Name": "Lex Fridman",
+      "Summary": "Out-right pro-russian and anti-Ukrainian stance. <a href=\"https://www.youtube.com/watch?v=ygAqYC8JOQI&amp;ab_channel=LexFridman\">This video</a> alone is enough, but there is more",
+      "Twitter": "@lexfridman",
+      "id": "427089628"
     }
   ]
 }
