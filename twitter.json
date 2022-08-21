@@ -1648,11 +1648,11 @@
       "id": "25067168"
     },
     {
-      "Category": "Kremlin parrot",
+      "Category": "Collaborator",
       "Country": "Belgium",
       "Link": "<a href=\"https://twitter.com/brezaleksandar\">https://twitter.com/brezaleksandar</a>",
       "Name": "[\"Aleksandar Brezar\",[[\"b\"]]]",
-      "Summary": "Does not appreciate <a href=\"https://twitter.com/cryptodrftng/status/1561046752869900288?s=20&amp;t=qKu0nvlcQd3Jya0zkU-0og\">social activism</a>",
+      "Summary": "<a href=\"https://www.euronews.com/my-europe/2022/06/14/europe-urged-not-to-neglect-other-refugees-amid-focus-on-ukraine\">Whataboutism</a> and <a href=\"https://twitter.com/brezaleksandar/status/1561030716804284416?s=20&amp;t=wDvwe33JAFuFpMHoEGooxw\">anti-Ukrainian rhetoric</a>",
       "Twitter": "@brezaleksandar",
       "id": "237245772"
     },
@@ -1673,6 +1673,15 @@
       "Summary": "Out-right pro-russian and anti-Ukrainian stance. <a href=\"https://www.youtube.com/watch?v=ygAqYC8JOQI&amp;ab_channel=LexFridman\">This video</a> alone is enough, but there is more",
       "Twitter": "@lexfridman",
       "id": "427089628"
+    },
+    {
+      "Category": "Asset",
+      "Country": "Netherlands",
+      "Link": "<a href=\"https://twitter.com/thierrybaudet\">https://twitter.com/thierrybaudet</a>",
+      "Name": "[\"Thierry Baudet\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/mmeeuw/status/1560976850008129536\">This</a> explains everything",
+      "Twitter": "@thierrybaudet",
+      "id": "367703310"
     }
   ]
 }
