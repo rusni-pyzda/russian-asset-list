@@ -1851,6 +1851,7 @@
       "Country": "Germany",
       "Link": "<a href=\"https://twitter.com/JulianRoepcke\">https://twitter.com/JulianRoepcke</a>",
       "Name": "Julian Röpcke",
+      "Summary": "False reports on the Ukrainian counter-offensive",
       "Twitter": "@JulianRoepcke",
       "id": "428140124"
     },
@@ -1862,6 +1863,15 @@
       "Summary": "The entire Twitter feed is pure russian propaganda of the far right nature",
       "Twitter": "@Partisangirl",
       "id": "312696314"
+    },
+    {
+      "Category": "Collaborator",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/kaylapop_\">https://twitter.com/kaylapop_</a>",
+      "Name": "[\"Kayla\",[[\"b\"]]]",
+      "Summary": "<a href=\"https://twitter.com/kaylapop_/status/1570786525977411590?s=46&amp;t=O6KPJmWpMTo39eJ8u92_Vw\">Pro-russian stance</a>",
+      "Twitter": "@kaylapop_",
+      "id": "1238612947854856198"
     }
   ]
 }
