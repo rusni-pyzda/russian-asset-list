@@ -1884,6 +1884,7 @@
     },
     {
       "Category": "Useful idiot",
+      "Link": "<a href=\"https://twitter.com/elonmusk\">https://twitter.com/elonmusk</a>",
       "Name": "Elon Musk",
       "Twitter": "@elonmusk",
       "id": "44196397"
@@ -1922,6 +1923,23 @@
       "Name": "Katrina vandenHeuvel",
       "Twitter": "@KatrinaNation",
       "id": "59159771"
+    },
+    {
+      "Category": "Useful idiot",
+      "Country": "Canada",
+      "Link": "<a href=\"https://twitter.com/NeilPHauer\">https://twitter.com/NeilPHauer</a>",
+      "Name": "Neil Hauer",
+      "Summary": "Genocide whataboutism, ad hominem attacks against Ukrainian activists",
+      "Twitter": "@NeilPHauer",
+      "id": "2467139606"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Link": "<a href=\"https://twitter.com/liusivaya\">https://twitter.com/liusivaya</a>",
+      "Name": "Liu Sivaya",
+      "Summary": "Outright pro-russian rhetoric ",
+      "Twitter": "@liusivaya",
+      "id": "1261211932272594944"
     }
   ]
 }
