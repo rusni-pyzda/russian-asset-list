@@ -1293,7 +1293,7 @@
       "Country": "Australia",
       "Link": "<a href=\"https://twitter.com/caitoz?s=21&amp;t=U23xwJDZgL-ribgCWarwVA\">https://twitter.com/caitoz?s=21&amp;t=U23xwJDZgL-ribgCWarwVA</a>",
       "Name": "[\"Caitlin Johnstone\",[[\"b\"]]]",
-      "Summary": "Avid anti-US sentiment, pro-russian",
+      "Summary": "Avid pro-russian sentiment",
       "Twitter": "@caitoz",
       "id": "19899980"
     },
@@ -1947,6 +1947,15 @@
       "Name": "Kanye West",
       "Summary": "Nazi sympathiser",
       "Twitter": "@kanyewest (currently suspended)"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Country": "France",
+      "Link": "<a href=\"https://twitter.com/leJDD/status/1599411716416307200\">https://twitter.com/leJDD/status/1599411716416307200</a>",
+      "Name": "T[\"hierry de Montbrial\",[[\"b\"]]]",
+      "Summary": "\"Advocate of a “realistic” foreign policy,” “ wants Westerners take into account the vital interests of Russia.”",
+      "Twitter": "@TdeMontbrial",
+      "id": "1264828666539884544"
     }
   ]
 }
