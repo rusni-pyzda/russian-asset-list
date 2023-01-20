@@ -1220,7 +1220,7 @@
       "Category": "Useful idiot",
       "Country": "United States",
       "Link": "<a href=\"https://twitter.com/nytimes?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ\">https://twitter.com/nytimes?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ</a>",
-      "Name": "The New York Times",
+      "Name": "NY Times",
       "Summary": "Platforms pro-russian “experts”",
       "Twitter": "@nytimes",
       "id": "807095"
@@ -1964,6 +1964,47 @@
       "Name": "Eric Weinsten",
       "Summary": "Pro-russian rhetoric, essentially genocide apologism",
       "Twitter": "@<a href=\"https://twitter.com/ericrweinstein/status/1606835038221643776?s=46&amp;t=i3EOnXZkaLPYteAgCJ2eWw\">ericrweinstein</a>"
+    },
+    {
+      "Category": "Useful idiot",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/ericrweinstein/status/1606835038221643776?s=46&amp;t=i3EOnXZkaLPYteAgCJ2eWw\">https://twitter.com/ericrweinstein/status/1606835038221643776?s=46&amp;t=i3EOnXZkaLPYteAgCJ2eWw</a>",
+      "Name": "Eric Weinsten",
+      "Summary": "Pro-russian rhetoric, essentially genocide apologism",
+      "Twitter": "@ericrweinstein",
+      "id": "33152005"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Link": "<a href=\"https://twitter.com/tweet4anna/status/1615879224581132288.com\">https://twitter.com/tweet4anna/status/1615879224581132288.com</a>",
+      "Name": "WarMonitors",
+      "Summary": "Pushes russian disinfo narratives.",
+      "Twitter": "@warmonitors",
+      "id": "1392864463204782082"
+    },
+    {
+      "Category": "Useful idiot",
+      "Link": "<a href=\"https://twitter.com/euromaidanpr/status/1614179527650852865\">https://twitter.com/euromaidanpr/status/1614179527650852865</a>",
+      "Name": "EuromaidanPR",
+      "Summary": "Gloating about Ukraine being hit with missiles; glorifying Pussy Riot.",
+      "Twitter": "@euromaidanpr "
+    },
+    {
+      "Additional Info": "<a href=\"https://t.me/VeraVanHorne1\">https://t.me/VeraVanHorne1</a>",
+      "Category": "Kremlin parrot",
+      "Name": "Vera Van Horne ",
+      "Summary": "Pro-Kremlin rhetoric ",
+      "Twitter": "@veravanhorne",
+      "id": "158715457"
+    },
+    {
+      "Category": "Asset",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/drradchenko\">https://twitter.com/drradchenko</a>",
+      "Name": "Sergey Radchenko",
+      "Summary": "Pro-russian rhetoric, amplifying pro-russian “experts”",
+      "Twitter": "@drradchenko",
+      "id": "2313633876"
     }
   ]
 }
