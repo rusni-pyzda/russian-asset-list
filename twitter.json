@@ -1220,7 +1220,7 @@
       "Category": "Useful idiot",
       "Country": "United States",
       "Link": "<a href=\"https://twitter.com/nytimes?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ\">https://twitter.com/nytimes?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ</a>",
-      "Name": "NY Times",
+      "Name": "The New York Times",
       "Summary": "Platforms pro-russian “experts”",
       "Twitter": "@nytimes",
       "id": "807095"
@@ -2005,6 +2005,15 @@
       "Summary": "Pro-russian rhetoric, amplifying pro-russian “experts”",
       "Twitter": "@drradchenko",
       "id": "2313633876"
+    },
+    {
+      "Category": "Kremlin parrot",
+      "Country": "United States",
+      "Link": "<a href=\"https://twitter.com/mcfaul/status/1635086688719622145?s=46&amp;t=k58PjPUUYP95DW9neljrig\">https://twitter.com/mcfaul/status/1635086688719622145?s=46&amp;t=k58PjPUUYP95DW9neljrig</a>",
+      "Name": "Michael McFaul",
+      "Summary": "Repeated glorification of the russian fascist Navalny.",
+      "Twitter": "@McFaul",
+      "id": "454099919"
     }
   ]
 }
