@@ -1220,7 +1220,7 @@
       "Category": "Useful idiot",
       "Country": "United States",
       "Link": "<a href=\"https://twitter.com/nytimes?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ\">https://twitter.com/nytimes?s=21&amp;t=67Ixwgyc2PaHkIvoT1HeVQ</a>",
-      "Name": "NY Times",
+      "Name": "The New York Times",
       "Summary": "Platforms pro-russian “experts”",
       "Twitter": "@nytimes",
       "id": "807095"
@@ -1899,7 +1899,8 @@
       "id": "408806531"
     },
     {
-      "Category": "Useful idiot",
+      "Category": "Asset",
+      "Country": "United States",
       "Name": "Ian Bremmer",
       "Summary": "Suggests off ramp for Putin with no trials for war crimes",
       "Twitter": "@ianbremmer",
